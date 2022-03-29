@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+$margin: 138px;
+$small_margin: 70px;
+$med_margin: 80px;
+$large_margin: 290px;
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  color: white;
+  background-color: #9c1030;
+}
+
+nav {
+  z-index: 1;
+}
+
+:target {
+  display: block;
+  position: relative;
+  top: -120px;
+  visibility: hidden;
+}
+
+section.basic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 126px;
+  margin-bottom: $large_margin;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 116px;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 108px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin: $med_margin 0;
+}
+
+h3 {
+  font-size: 85px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 30px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.basic-text {
+  font-size: 30px;
+  font-weight: 400;
+}

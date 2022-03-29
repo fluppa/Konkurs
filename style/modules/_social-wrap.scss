@@ -1,0 +1,17 @@
+.sc-wrapper {
+  display: flex;
+  gap: 40px;
+  .icon {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-position: center;
+    background-size: contain;
+    &.face {
+      background-image: url(../resources/fb.svg);
+    }
+    &.ig {
+      background-image: url(../resources/instagram.svg);
+    }
+  }
+}

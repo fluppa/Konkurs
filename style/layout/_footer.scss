@@ -1,0 +1,48 @@
+footer {
+  width: 100%;
+  background-color: #b10a32;
+  color: white;
+  display: flex;
+  justify-content: center;
+  .wrap {
+    //width: 1200px;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 100px 150px 100px;
+    grid-template-columns: 1fr 1200px 1fr;
+  }
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo {
+    grid-column-start: 2;
+    grid-row-start: 1;
+  }
+  .nav {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    align-items: flex-start;
+    justify-content: initial;
+  }
+  .copy {
+    background-color: #690c22;
+    grid-column-start: span 3;
+    grid-row-start: 3;
+    justify-content: center;
+    font-size: 15px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0 145px 0 0;
+    padding: 0;
+  }
+  a {
+    color: #eb9caf;
+    text-decoration: none;
+  }
+  a:hover {
+    color: white;
+  }
+}

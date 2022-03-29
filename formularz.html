@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/styles.css" />
+    <title>Zapisy</title>
+  </head>
+  <body>
+    <nav></nav>
+    <section class="basic formularz">
+      <h2>Weź udział</h2>
+      <form>
+        <input type="text" id="fname" value="Imię" name="fname" onfocus="this.value=''" required />
+        <input
+          type="text"
+          id="lname"
+          value="Nazwisko"
+          name="lname"
+          onfocus="this.value=''"
+          required
+        /><br />
+        <input
+          type="text"
+          id="email"
+          value="Adres email"
+          name="email"
+          onfocus="this.value=''"
+          required
+        /><br />
+        <input
+          type="text"
+          id="phone"
+          value="Numer telefonu"
+          name="phone"
+          onfocus="this.value=''"
+          required
+        /><br />
+        <div class="checkbox-wrapper">
+          <input type="checkbox" id="regulamin" name="regulamin" value="accepted" required />
+          <label for="regulamin">Zapoznałem się z regulaminem konkursu</label>
+        </div>
+
+        <input type="submit" value="WYŚLIJ" />
+      </form>
+    </section>
+    <footer></footer>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

@@ -5,64 +5,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style/styles.css" />
-    <title>Konkurs</title>
+    <title>Scenopisarski konkurs Cinespace</title>
   </head>
   <body>
-    <nav>
-      <img class="logo" src="resources/logo.svg" />
-      <ul>
-        <li><a href="#">O nas</a></li>
-        <li><a href="#">Zadania</a></li>
-        <li><a href="#">Organizator</a></li>
-        <li><a href="#">Kontakt</a></li>
-      </ul>
-    </nav>
+    <nav></nav>
     <section id="main">
-      <div class="wrap">
-        <section class="about">
-          <h4>O konkursie</h4>
-          <p class="standard-format-text">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-            has been the industry's standard dummy text ever since the 1500s, when an unknown
-            printer took a galley of type and scrambled it to make a type specimen book. It has
-            survived not only five centuries,
-          </p>
-        </section>
-        <div class="tasks-wrap">
-          <section class="tasks">
-            <h4>Zadania</h4>
-            <p class="standard-format-text">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-              has been the industry's standard dummy text ever since the 1500s.
-            </p>
-            <section class="tasks-wrapper">
-              <a class="task" href="#">1</a>
-              <a class="task" href="#">2</a>
-              <a class="task" href="#">3</a>
-            </section>
-          </section>
+      <section class="landing">
+        <h5>CINESPACE Prezentuje</h5>
+        <h1>PIERWSZY OGÓLNOPOLSKI KONKURS SCENOPISARSKI</h1>
+        <div class="scroll-down"></div>
+      </section>
+      <section class="about">
+        <a id="about"></a>
+        <div class="background"></div>
+        <h3>O konkursie</h3>
+        <p class="basic-text">
+          Konkurs został stworzony z myślą o początkujących filmowcach którzy sami dobrze wiedza jak
+          trudno jest o znalezienie finansowania swoich pomysłów. Cinespace wychodzi naprzeciw temu
+          wyzwaniu z pierwszym w Polsce takim konkursem którego nagrodą jest pełne finansowanie
+          zwycięskiego projektu! Aby zgłosić się należy wypełnić ankietę zgłoszeniową oraz wysłać na
+          adres prace w wyznaczonym terminie. O ocenie komisji będziemy informować na bieżąco
+          poprzez skrzynkę mailową.
+        </p>
+        <div class="button-wrapper">
+          <a class="button" href="formularz.html">Weż udział</a>
+          <a class="button" href="regulamin.html">Regulamin</a>
         </div>
-        <section class="organizers">
-          <h4>Organizatorzy</h4>
-          <p class="standard-format-text">
-            Organizatorem konkursu jest firma Lorem Ipsum Company. It is a long established fact
-            that a reader will be distracted by the readable content of a page when looking at its
-            layout.
-          </p>
-          <div class="bubble-image" id="first-image"></div>
-          <div class="bubble-image" id="second-image"></div>
+      </section>
+      <section class="stages">
+        <a id="stages"></a>
+        <img src="./resources/camera_deco.svg" />
+        <h3>Etapy</h3>
+        <p class="basic-text">
+          Przygotowany konkurs składa się z trzech etapów po 3 zadania. Aby zakwalifikować się do
+          kolejnego etapu należy uzyskać nominację z poprzedniego etapu. Zwycięsca ostatniego etapy
+          zgarnia nagrodę!
+        </p>
+        <ul class="stages-wrapper">
+          <li><a class="stage" href="etap1.html" class="stage-link">I</a></li>
+          <li><a class="stage" href="etap2.html" class="stage-link">II</a></li>
+          <li><a class="stage" href="etap3.html" class="stage-link">III</a></li>
+        </ul>
+        <img src="./resources/camera_deco.svg" />
+      </section>
+      <section class="organizator">
+        <a id="organizator"></a>
+        <h3>Organizator</h3>
+        <p class="basic-text">
+          Organizatorem konkursu jest portal Cinespace który od lat dostarcza internautą najnowsze
+          wiadomości ze świata kina. Honorowym patronem tego projektu jest słynny reżyser i twórca
+          serialu "M jak Miłość", Tentin Quantatino!
+        </p>
+      </section>
+      <section class="contact">
+        <a id="contact"></a>
+        <h3>kontakt</h3>
+        <p class="basic-text">
+          <strong>Email: </strong>cinespacekonkurs@gmail.com<br /><strong>Telefon:</strong> +48 645
+          645 645
+        </p>
+        <section class="sc-wrapper">
+          <a href="#" class="face icon"></a>
+          <a href="#" class="ig icon"></a>
         </section>
-        <section class="organizers">
-          <h4>Contact</h4>
-          <p class="standard-format-text">
-            Email: LoremIpsum@gmail.com<br />
-            Phone: 123 333 452
-          </p>
-          <section class="sc-wrapper"></section>
-        </section>
-      </div>
+      </section>
+      <section class="last_call">
+        <h1>Masz pomysł na film? Zapisz się już teraz!</h1>
+        <div class="button-wrapper">
+          <a class="button" href="formularz.html">Weż udział</a>
+          <a class="button" href="regulamin.html">Regulamin</a>
+        </div>
+      </section>
     </section>
-    <section class="contact"></section>
     <footer></footer>
+    <script type="module" src="app.js"></script>
   </body>
 </html>

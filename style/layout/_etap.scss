@@ -1,0 +1,26 @@
+.etap {
+  h2 {
+    margin: 0;
+  }
+  header {
+    margin: $med_margin 0;
+  }
+  .tasks-wrapper {
+    width: 1644px;
+    list-style-type: none;
+    margin-bottom: $large_margin;
+
+    li:last-child {
+      margin: 0;
+    }
+    li {
+      display: flex;
+      justify-content: space-between;
+      font-size: 30px;
+      margin-bottom: $small_margin;
+    }
+    span:first-child {
+      font-weight: bold;
+    }
+  }
+}
